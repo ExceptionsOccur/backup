@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+;注册表新建项，名称、图标
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
+@="Windows Terminal here"
+"Icon"="%USERPROFILE%\\AppData\\Local\\Terminal\\terminal.ico"
+
+;该注册表项执行的命令
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
+@="C:\\Users\\Onyx\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"

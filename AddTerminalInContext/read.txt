@@ -1,0 +1,4 @@
+1、先 echo %USERPROFILE%、echo %LOCALAPPDATA% 查看路径是否正确
+2、新建文件夹存放 icon，mkdir "%USERPROFILE%\AppData\Local\Terminal"，可自定义，但是要与 reg 文件中icon路径一致
+3、执行 reg 文件
+4、在 Terminal 的配置文件中将 "startingDirectory" 项修改为 "./"，没有则新建
